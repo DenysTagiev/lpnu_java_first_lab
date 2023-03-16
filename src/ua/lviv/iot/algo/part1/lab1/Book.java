@@ -48,10 +48,10 @@ public class Book {
         books[2] = Book.getInstance();
         books[3] = Book.getInstance();
 
-        for (int i = 0; i < books.length; i++) {
+        for (Book book:books) {
 
 
-            System.out.println(books[i].toString());
+            System.out.println(book);
         }
     }
 
