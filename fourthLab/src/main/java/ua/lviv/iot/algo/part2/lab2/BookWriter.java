@@ -32,4 +32,6 @@ public class BookWriter extends Book{
     public String getBookType() {
         return null;
     }
+
 }
+
